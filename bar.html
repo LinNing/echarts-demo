@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ECharts · Example</title>
+  <style>
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  </style>
+</head>
+
+<body>
+
+  <script src="./js/echarts.js"></script>
+  <script type="text/javascript">
+  // 路径配置
+  require.config({
+    paths: {
+      echarts: './js'
+    }
+  });
+  </script>
+
+  <h2>月报</h2>
+
+  <h3>学习人数</h3>
+  <div id="chart1"></div>
+  <script src="./js/demo/chart1.js"></script>
+
+  <h3>参加学习人数比例</h3>
+  <div id="chart2"></div>
+  <script src="./js/demo/chart2.js"></script>
+
+  <h3>获得认证数</h3>
+  <div id="chart3"></div>
+  <script src="./js/demo/chart3.js"></script>
+
+  <h2>年报</h2>
+
+  <h3>学习人数/获得认证数</h3>
+  <div id="chart4"></div>
+  <script src="./js/demo/chart4.js"></script>
+
+  <p>&nbsp;</p>
+
+</body>
+
+</html>
